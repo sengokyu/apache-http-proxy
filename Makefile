@@ -12,3 +12,5 @@ start:
 clean:
 	docker rmi $(image_tag)
 
+push:
+	docker push $(image_tag)
